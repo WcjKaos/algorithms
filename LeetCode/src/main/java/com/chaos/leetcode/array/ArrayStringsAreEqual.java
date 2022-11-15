@@ -22,7 +22,7 @@ public class ArrayStringsAreEqual {
         String convertString(String[] words);
     }
 
-    class  StringTool implements  IStringTool{
+    static class  StringTool implements  IStringTool{
 
         @Override
         public String convertString(String[] words) {
